@@ -1,0 +1,20 @@
+[
+    {"source": "app/utils/common.js"},
+    {"source": "app/utils/base64.js"},
+    {"source": "app/utils/settings.js"},
+    {"source": "app/utils/livepipe.js"},
+    {"source": "app/utils/dashboard.js"},
+    {"source": "app/utils/basescene.js"},
+    {"source": "app/utils/togglescene.js"},
+    
+    {"source": "app/models/command.js"},
+    
+    {"source": "app/assistants/dashboard-assistant.js"},
+    {"source": "app/assistants/about-assistant.js"},
+    {"source": "app/assistants/list-assistant.js"},
+    {"source": "app/assistants/now-playing-assistant.js"},
+    {"source": "app/assistants/remote-assistant.js"},
+    {"source": "app/assistants/settings-assistant.js"},
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/assistants/app-assistant.js"}
+]

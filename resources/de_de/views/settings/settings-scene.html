@@ -1,0 +1,53 @@
+<div class="background"></div>
+<div class="palm-page-header multi-line">
+  <div class="palm-page-header-wrapper">
+    <div class="icon"></div>
+    <div class="title">
+      Boxee-Einstellungen
+    </div>
+    <div class="subtitle">
+      Um die Fernbedienung zu nutzen, musst du den HTTP-Server aktivieren. Gehe dazu in Boxee auf Einstellungen -> Netzwerk -> Servers. Gib danach die IP-Adresse, den Port und dein Passwort (Passwort ist standardmäßig nicht vergeben) ein.
+    </div>
+  </div>
+</div>
+
+<div id="scrim-container">
+  <div id="spinner" x-mojo-element="Spinner"></div>
+</div>
+
+<div class="palm-group unlabeled">
+  <div class="palm-list">
+    <div class="palm-row first">
+	    <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+        <div class="title">
+          <div class="label">IP-Addresse</div>
+          <div id="host" x-mojo-element="TextField"></div>
+        </div>
+	    </div>
+    </div>
+    <div class="palm-row">
+	    <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+        <div class="title">
+          <div class="label">Port</div>
+          <div id="port" x-mojo-element="TextField"></div>
+        </div>
+	    </div>
+    </div>
+    <div class="palm-row">
+	    <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+        <div class="title">
+          <div class="label">Passwort</div>
+          <div id="password" x-mojo-element="PasswordField"></div>
+        </div>
+	    </div>
+    </div>
+    <div class="palm-row last">
+	    <div class="palm-row-wrapper" x-mojo-focus-highlight="true">
+	      <div id="vibrate" x-mojo-element="ToggleButton" class="left"></div>
+        <div class="title right">
+          <div class="label">Vibration</div>
+        </div>
+	    </div>
+    </div>
+  </div>
+</div>

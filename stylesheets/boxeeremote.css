@@ -1,0 +1,302 @@
+.hint-text {
+    color: #898989 !important;
+    padding-top: 8px;
+    font-size: 15px;
+}
+
+.background {                                  
+	position: fixed;      
+	width: 100%;
+	height: 480px;
+	top: 0;
+	left: 0;    
+	z-index: -100;
+	background: #000 url(../images/texture.png) no-repeat;
+}
+
+.palm-header { overflow: visible; } 
+
+.palm-header .palm-header-wrapper {
+	margin: 0 -15px 0px 0px;
+}
+.list-header-spacer {
+  height: 50px;
+  width: 100%;
+}
+.filter-field-container-height {
+  height: 96px;
+}
+#volumeSlider {
+    margin-left: 7px;
+    margin-top: 23px;
+}
+.palm-slider-background {
+    width: 106px;
+    margin-top: 5px;
+}
+#scrubSlider {
+    margin-left: 15px;
+    margin-top: 23px;
+}
+#scrubSlider .palm-slider-background {
+    width: 159px;
+}
+
+
+
+.toggle-inlay {
+	float: right;
+	width: 180px;
+	height: 50px;
+	margin-right: -3px;
+	margin-left: -26px;
+}
+
+.toggle-list-view,
+.toggle-remote-view,
+.toggle-now-view {
+	float: right;
+	height: 50px;
+	width: 50px;
+	margin: 0px;
+	border-width: 0 25px;
+	-webkit-box-sizing: border-box;
+}
+.toggle-now-view {
+    width: 28px;
+}
+.toggle-list-view > img,
+.toggle-remote-view > img {
+	margin: 9px 0px 0px -18px;
+}
+.toggle-now-view > img {
+	margin: 9px 0px 0px -16px;
+}
+.toggle-remote-view > img {
+  margin-left: -12px;
+}
+.toggle-remote-view {
+	-webkit-border-image: url(../images/palm-menu-inlay-first.png) 0 25 200 25 repeat repeat;
+}
+.toggle-now-view {          
+	-webkit-border-image: url(../images/palm-menu-inlay-middle.png) 0 25 200 25 repeat repeat;
+}
+.toggle-list-view {          
+	-webkit-border-image: url(../images/palm-menu-inlay-last.png) 0 25 200 25 repeat repeat;
+}
+.toggle-remote-view.depressed {
+	-webkit-border-image: url(../images/palm-menu-inlay-first.png) 100 25 100 25 repeat repeat;
+}
+.toggle-now-view.depressed {
+	-webkit-border-image: url(../images/palm-menu-inlay-middle.png) 100 25 100 25 repeat repeat;
+}
+.toggle-list-view.depressed {
+	-webkit-border-image: url(../images/palm-menu-inlay-last.png) 100 25 100 25 repeat repeat;
+}
+
+.toggle-remote-view.selected  {
+	-webkit-border-image: url(../images/palm-menu-inlay-first.png) 50 25 150 25 repeat repeat;
+}
+.toggle-now-view.selected {          
+	-webkit-border-image: url(../images/palm-menu-inlay-middle.png) 50 25 150 25 repeat repeat;
+}
+.toggle-list-view.selected {
+	-webkit-border-image: url(../images/palm-menu-inlay-last.png) 50 25 150 25 repeat repeat;
+}
+.toggle-remote-view.depressed.selected {
+	-webkit-border-image: url(../images/palm-menu-inlay-first.png) 150 25 50 25 repeat repeat;
+}
+.toggle-now-view.depressed.selected {
+	-webkit-border-image: url(../images/palm-menu-inlay-middle.png) 150 25 50 25 repeat repeat;
+}
+.toggle-list-view.depressed.selected {
+	-webkit-border-image: url(../images/palm-menu-inlay-last.png) 150 25 50 25 repeat repeat;
+}
+
+.remote-ui {
+    position: relative;
+    width: 259px;
+    height: 258px;
+    margin: 0 18px;
+}
+
+.remote-ui .up {
+    position: absolute;
+    top: 0;
+    left: 83px;
+    background: url(../images/ui-arrows.png) no-repeat -81px -6px;
+    height: 60px;
+    width: 120px;
+}
+
+.remote-ui .up.selected {
+    background-position: -346px -6px;
+}
+
+.remote-ui .down {
+    position: absolute;
+    top: 175px;
+    left: 83px;
+    background: url(../images/ui-arrows.png) no-repeat -81px -182px;
+    height: 60px;
+    width: 120px;
+}
+.remote-ui .down.selected {
+    background-position: -346px -182px;
+}
+
+.remote-ui .left {
+    position: absolute;
+    top: 58px;
+    left: 21px;
+    background: url(../images/ui-arrows.png) no-repeat -21px -65px;
+    height: 117px;
+    width: 62px;
+}
+.remote-ui .left.selected {
+    background-position: -286px -65px;
+}
+
+.remote-ui .right {
+    position: absolute;
+    top: 57px;
+    left: 198px;
+    background: url(../images/ui-arrows.png) no-repeat -199px -65px;
+    height: 117px;
+    width: 62px;
+}
+.remote-ui .right.selected {
+    background-position: -464px -65px;
+}
+
+.remote-ui .ok {
+    position: absolute;
+    top: 70px;
+    left: 94px;
+    background: url(../images/ui-arrows.png) no-repeat -94px -77px;
+    height: 95px;
+    width: 95px;
+}
+.remote-ui .ok.selected {
+    background-position: -359px -77px;
+}
+
+.remote-ui .back {
+    position: absolute;
+    top: 198px;
+    left: 3px;
+    background: url(../images/ui-arrows.png) no-repeat -2px -205px;
+    height: 59px;
+    width: 59px;
+}
+.remote-ui .back.selected {
+    background-position: -267px -205px;
+}
+
+.cover-container {
+    position: relative;
+	width: 320px;
+	height: 310px;
+	margin: 70px 0px 0px 0px;
+}
+
+.cover-wrapper {
+    position: fixed;
+	left: 10px;
+	z-index: 1;
+	width: 300px;
+	height: 310px;
+	overflow: hidden;
+}
+
+.cover-art {
+    width: 300px;
+	height: 310px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle
+}
+
+.cover-art img {
+}
+
+.title-info {
+	font-size: 16px;
+	text-align: center;
+	position: absolute;
+	width: 280px;
+	padding: 0 20px;
+}
+
+.item-title {
+	font-size: 20px;
+}
+
+.item-time {
+    font-size: 13px;
+    padding-top: 7px;
+}
+
+.progress-bar {
+    position: fixed;
+    bottom: 55px;
+    width: 250px;
+    height: 6px;
+    background-color: red;
+    z-index: 2;
+    left: 33px;
+    background: url(../images/progress-bar.png);
+    padding: 2px;
+}
+.progress-bar .progress {
+    height: 6px;
+    width: 0;
+    border-width: 0 5px 0 7px;
+    -webkit-box-sizing: border-box;
+    -webkit-border-image: url(../images/progress.png) 0 5 0 7 stretch stretch;
+}
+
+
+.list-item-button,  /* dep */
+.palm-row .list-item-button {
+  height: 52px;
+  width: 44px;
+  background: url(../images/menu-icon-music.png) center center no-repeat;
+  float: left;
+}
+
+.list-item-button.video {
+    background-image: url(../images/menu-icon-video.png);
+}
+.list-item-button.pictures {
+    background-image: url(../images/menu-icon-pictures.png);
+}
+
+.dashboard-notification-module.remote .dashboard-title,
+.dashboard-notification-module.remote .dashboard-text { 
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 250px;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container {
+	position: absolute;
+	right: 5px;
+	top: 9px;
+	z-index: 2;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .control-button {
+	width: 32px;
+	height: 32px;
+	float: left;
+    background: url(../images/menu-icon-pause.png) top center no-repeat;
+}
+
+.dashboard-notification-module .palm-dashboard-controls-container .play.pause {
+    background: url(../images/menu-icon-play.png) top center no-repeat;
+}
+.dashboard-notification-module .palm-dashboard-controls-container .play.hidden {
+    display: none;
+}

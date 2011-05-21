@@ -1,26 +1,11 @@
 {
-    "id": "com.aslansky.boxee",
+    "id": "org.boxee",
     "version": "0.9.1",
-    "vendor": "Alexander Slansky",
-    "vendorurl": "http://slansky.net/boxee",
     "title": "Boxee Remote",
     "copyright": "&copy; 2010 Alexander Slansky",
+    "license": "Licensed under the MIT license",
     "type": "web",
     "main": "index.html",
     "icon": "icon.png",
-    "smallicon" : "icon-small.png",
-    "support": {
-        "url": "http://slansky.net/boxee",
-        "email": {
-            "address": "support@slansky.net",
-            "subject": "Support: Boxee Remote by Alexander Slansky"
-        },
-        "resources": [
-            {
-                "type": "web",
-                "label": "Helpdesk",
-                "url": "http://support.slansky.net/"
-            }
-        ]
-    }
+    "smallicon" : "icon-small.png"
 }
